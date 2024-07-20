@@ -18,7 +18,7 @@ export enum TeamMode {
 
 export const Config = {
     host: "0.0.0.0",
-    port: 8000,
+    port: 7979,
 
     modes: [
         { mapName: "main", teamMode: TeamMode.Solo, enabled: true },
