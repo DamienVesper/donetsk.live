@@ -39,7 +39,7 @@ export const Config = {
 
     spawn: { mode: SpawnMode.Random },
 
-    gameTps: 100,
+    gameTps: 1000,
     netSyncTps: 33,
 
     perfLogging: {
