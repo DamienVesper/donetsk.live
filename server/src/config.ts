@@ -29,13 +29,13 @@ export const Config = {
     plugins: [],
 
     regions: {
-        local: {
-            https: false,
-            address: "127.0.0.1:3000"
+        na: {
+            https: true,
+            address: "donetsk.live"
         }
     },
 
-    defaultRegion: "local",
+    defaultRegion: "na",
 
     spawn: { mode: SpawnMode.Random },
 
