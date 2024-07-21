@@ -93,7 +93,7 @@ export class Server {
         const data = {
             modes: Config.modes,
             pops: {
-                local: `${playerCount} players`
+                na: `${playerCount} players`
             },
             youtube: { name: "", link: "" },
             twitch: [],
