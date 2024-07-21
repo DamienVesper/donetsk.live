@@ -18,7 +18,7 @@ export enum TeamMode {
 
 export const Config = {
     host: "0.0.0.0",
-    port: 7979,
+    port: 50042,
 
     modes: [
         { mapName: "main", teamMode: TeamMode.Solo, enabled: true },
@@ -31,7 +31,7 @@ export const Config = {
     regions: {
         na: {
             https: true,
-            address: "donetsk.live"
+            address: "scrims.donetsk.live"
         }
     },
 
